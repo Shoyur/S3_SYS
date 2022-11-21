@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="365.0" stroke="BLACK" strokeType="OUTSIDE" width="300.0" AnchorPane.rightAnchor="148.0" AnchorPane.topAnchor="40.0" />
+      <ImageView fitHeight="108.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@SPCA-MONTREAL-RGB-C.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sAnimalImageView" fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="148.0" AnchorPane.topAnchor="40.0">
+         <image>
+            <Image url="@../chien1.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="sAnimalComboBox" layoutX="64.0" layoutY="40.0" prefWidth="300.0" promptText="Sélectionnez un animal..." AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="40.0" />
+      <TextArea fx:id="sAnimalTextAreaInfo" layoutX="20.0" layoutY="60.0" prefHeight="268.0" prefWidth="458.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="105.0" />
+      <TextArea fx:id="sAnimalTextAreaMedical" layoutX="40.0" layoutY="406.0" prefHeight="156.0" prefWidth="458.0" />
+      <CheckBox layoutX="721.0" layoutY="440.0" mnemonicParsing="false" selected="true" />
+      <Label layoutX="589.0" layoutY="440.0" text="Vu par un vétérinaire :" />
+      <Label layoutX="589.0" layoutY="480.0" text="Quand :" />
+      <DatePicker fx:id="sAnimalDatePicker" layoutX="650.0" layoutY="476.0" />
+      <TextField fx:id="sAnimalTextFieldQui" layoutX="650.0" layoutY="516.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="589.0" layoutY="520.0" text="Qui :" />
+   </children>
+</AnchorPane>
