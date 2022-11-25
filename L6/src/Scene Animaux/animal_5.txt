@@ -1,0 +1,8 @@
+No de Référence 	51409680
+Espèce 	Lapin
+Âge 	1
+Sexe 	Mâle
+Race 	Lapin
+Taille 	M
+Couleur 	Brun
+Dégriffé 	Non

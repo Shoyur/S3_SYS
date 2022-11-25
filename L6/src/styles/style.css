@@ -1,5 +1,12 @@
-/* .rectangle {
+.root {
+    -fx-base: blue;
+    -fx-background: green;
+}
+
+
+
+.label {
 	-fx-border-color: red;
     -fx-border-style: solid;
     -fx-border-width: 5;
-} */
+}

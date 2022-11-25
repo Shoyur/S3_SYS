@@ -1,0 +1,15 @@
+Description
+
+Pumpkin est une chatte timide mais très affectueuse en même temps. Elle aime jouer avec le laser et des ficelles. Elle aime se coucher sur les jambes. Elle aime se faire brosser.
+
+//
+
+Pumpkin is a shy cat but very affectionate at the same time. She likes to play with laser and strings. She likes to lie on our legs. She likes to be brushed.
+No de Référence 	50857478
+Espèce 	Chat
+Âge 	13
+Sexe 	Femelle
+Race 	Domestique à poils courts
+Taille 	M
+Couleur 	Noir
+Dégriffé 	Avant et arrière

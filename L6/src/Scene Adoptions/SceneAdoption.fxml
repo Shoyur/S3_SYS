@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneAdoption">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@SPCA-MONTREAL-RGB-C.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="877.0" layoutY="525.0" mnemonicParsing="false" onAction="#retour" prefWidth="100.0" text="Retour" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="20.0" />
+      <Button layoutX="880.0" layoutY="450.0" mnemonicParsing="false" prefWidth="100.0" text="Enregistrer" />
+      <Label layoutX="60.0" layoutY="60.0" text="Numéro de demande :" />
+      <Label layoutX="200.0" layoutY="60.0" text="010730" />
+      <Label layoutX="60.0" layoutY="90.0" text="Nom :" />
+      <Label layoutX="60.0" layoutY="120.0" text="Prénom :" />
+      <Label layoutX="60.0" layoutY="150.0" text="Numéro civique :" />
+      <Label layoutX="60.0" layoutY="180.0" text="Rue :" />
+      <Label layoutX="60.0" layoutY="210.0" text="Ville :" />
+      <Label layoutX="60.0" layoutY="240.0" text="Code postal :" />
+      <Label layoutX="60.0" layoutY="270.0" text="Téléphone :" />
+      <Label layoutX="60.0" layoutY="300.0" text="Cellulaire :" />
+      <Label layoutX="60.0" layoutY="330.0" text="Courriel :" />
+      <TextArea layoutX="60.0" layoutY="390.0" prefHeight="167.0" prefWidth="469.0" text="Nom : Yamaha&#10;Prénom : Julie&#10;Numéro civique : 450&#10;Rue : Chemin du Golf&#10;Ville : La Prairie&#10;Code postal : J5R 1F8&#10;Téléphone : 450-123-4567&#10;Cellulaire :&#10;Courriel : no@e.mail&#10;Étage : Nous demeurons au premier étage.&#10;Enfants : Nous avons un adolescent de 15 ans.&#10;Animaux : Nous n'avons pas d'autres animaux.&#10;Temps seul : Le chine serait seul pour un délai maximal de 9 heures.&#10;Cage : Le chien ne serait jamais en cage. Nous n'avons pas de cage.&#10;Exercice : Le chien ferait une longue marche chaque jour.&#10;Notes : Nous avons déjà eu un chien et nous étions des très bons propriétaires." />
+      <Label layoutX="60.0" layoutY="360.0" text="Vue formulaire d'adoption en ligne :" />
+      <TextField layoutX="200.0" layoutY="86.0" text="Yamaha" />
+      <TextField layoutX="200.0" layoutY="116.0" text="Julie" />
+      <TextField layoutX="200.0" layoutY="146.0" text="450" />
+      <TextField layoutX="200.0" layoutY="176.0" text="Chemin du Golf" />
+      <TextField layoutX="200.0" layoutY="206.0" text="La Prairie" />
+      <TextField layoutX="200.0" layoutY="236.0" text="J5R 1F8" />
+      <TextField layoutX="200.0" layoutY="266.0" text="450-123-4567" />
+      <TextField layoutX="200.0" layoutY="296.0" />
+      <TextField layoutX="200.0" layoutY="326.0" text="no@e.mail" />
+      <TextField layoutX="560.0" layoutY="147.0" prefHeight="25.0" prefWidth="240.0" text="51289388 - Chien - Wallabee" />
+      <Label layoutX="420.0" layoutY="151.0" text="ID animal associé :" />
+      <Label layoutX="420.0" layoutY="181.0" text="Prise en charge par :" />
+      <ComboBox layoutX="560.0" layoutY="177.0" prefHeight="25.0" prefWidth="240.0" promptText="Alicia Hubert - 0115" />
+      <TextArea layoutX="542.0" layoutY="390.0" prefHeight="167.0" prefWidth="304.0" text="2022-09-10 : La demande a été acceptée.&#10;2022-09-11 : Le client a été contacté pour lui dire que la demande a été acceptée.&#10;2022-09-11 : Le client a répondu, il viendra rencontrer l'animal le 18 sept prochain." wrapText="true" />
+      <Label layoutX="542.0" layoutY="360.0" text="Communications / Suivis :" />
+      <Button layoutX="880.0" layoutY="415.0" mnemonicParsing="false" prefWidth="100.0" text="Modifier" />
+      <CheckBox layoutX="880.0" layoutY="280.0" mnemonicParsing="false" text="Refusée" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="880.0" layoutY="310.0" mnemonicParsing="false" selected="true" text="Acceptée" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="880.0" layoutY="340.0" mnemonicParsing="false" text="Terminée">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
