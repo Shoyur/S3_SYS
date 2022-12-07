@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneFactureController">
+   <children>
+      <ComboBox fx:id="comboAnimal" layoutX="14.0" layoutY="108.0" prefWidth="150.0" promptText="Choisir Animal" />
+      <Button layoutX="21.0" layoutY="26.0" mnemonicParsing="false" onAction="#backHome" text="Retour" />
+      <ComboBox fx:id="comboProduits" layoutX="14.0" layoutY="151.0" prefWidth="150.0" promptText="Choisir Produits" />
+      <TextArea fx:id="txtAreaFacture" layoutX="302.0" layoutY="128.0" prefHeight="240.0" prefWidth="265.0" />
+      <Label layoutX="302.0" layoutY="99.0" text="Détails Facture" />
+      <Button layoutX="18.0" layoutY="355.0" mnemonicParsing="false" onAction="#calculerFacture" text="Calculer" />
+      <Button layoutX="99.0" layoutY="355.0" mnemonicParsing="false" onAction="#imprimerFacture" text="Imprimer" />
+      <ImageView fitHeight="88.0" fitWidth="108.0" layoutX="448.0" layoutY="14.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@spca.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderQte" blockIncrement="1.0" layoutX="19.0" layoutY="194.0" majorTickUnit="2.0" max="10.0" minorTickCount="0" showTickLabels="true" showTickMarks="true" />
+      <Button layoutX="187.0" layoutY="355.0" mnemonicParsing="false" text="Annulé" />
+      <Label layoutX="220.0" layoutY="34.0" text="Facture" underline="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

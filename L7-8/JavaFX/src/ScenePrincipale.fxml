@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ScenePrincipaleController">
+   <children>
+      <Button layoutX="556.0" layoutY="74.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Formulaire Signalement" AnchorPane.rightAnchor="300.0" />
+      <ImageView fitHeight="108.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@spca.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="300.0" layoutY="74.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Formulaire Adoption" AnchorPane.leftAnchor="300.0" />
+      <Button layoutX="300.0" layoutY="200.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Fiche Animal" AnchorPane.leftAnchor="300.0" />
+      <Button layoutX="556.0" layoutY="335.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Fiche Employé" AnchorPane.rightAnchor="300.0" />
+      <Button layoutX="556.0" layoutY="200.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Dossier Clients" AnchorPane.rightAnchor="300.0" />
+      <Button layoutX="300.0" layoutY="335.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Produits" AnchorPane.leftAnchor="300.0" />
+      <Button layoutX="300.0" layoutY="426.0" mnemonicParsing="false" onAction="#goToJeux1" prefHeight="55.0" prefWidth="144.0" text="Jeux 1" />
+      <Button layoutX="556.0" layoutY="426.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Jeux 2" />
+      <Button layoutX="428.0" layoutY="503.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" text="Initiation Employées" />
+      <Button layoutX="820.0" layoutY="503.0" mnemonicParsing="false" onAction="#goToInverser" prefHeight="55.0" prefWidth="144.0" text="Inverser contrastes">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

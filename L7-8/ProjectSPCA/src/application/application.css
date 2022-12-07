@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#anchorPaneMain{
+	-fx-background-color: "darkgray";
+}
+
+#labelMain{
+	-fx-alignment: center;
+}
+
+#labelTitre{
+	-fx-alignment: center;
+}
+
+TextArea{
+	-fx-font-family: "Arial, Helvetica, sans-serif";
+	
+	
+}
+
+#labelInfo, #labelHisto{
+	-fx-alignment: center;
+	-fx-font-size: 16px;
+}

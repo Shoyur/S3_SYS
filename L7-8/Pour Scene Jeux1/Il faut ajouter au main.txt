@@ -1,0 +1,19 @@
+Dans le MainScene.fxml, dans le Button de jeux1 :
+
+
+onAction="#goToJeux1" 
+
+
+et dans le ChangeSceneController.java :
+
+
+    @FXML
+    void goToJeux1(ActionEvent event) throws Exception {
+        
+        Parent root = FXMLLoader.load(getClass().getResource("SceneJeux1.fxml"));
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+
+    }

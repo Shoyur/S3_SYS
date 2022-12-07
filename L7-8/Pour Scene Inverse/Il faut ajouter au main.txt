@@ -1,0 +1,23 @@
+Dans le MainScene.fxml :
+
+
+      <Button layoutX="820.0" layoutY="503.0" mnemonicParsing="false" onAction="#goToInverser" prefHeight="55.0" prefWidth="144.0" text="Inverser contrastes">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+
+
+et dans le ChangeSceneController.java :
+
+
+    @FXML
+    void goToInverser(ActionEvent event) throws Exception {
+        
+        Parent root = FXMLLoader.load(getClass().getResource("SceneInverse.fxml"));
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+
+    }

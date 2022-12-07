@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneProduits">
+   <children>
+      <ImageView fitHeight="108.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@SPCA-MONTREAL-RGB-C.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sProduitsImageView" fitHeight="334.0" fitWidth="232.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="40.0" />
+      <ComboBox fx:id="sProduitsComboBox" layoutX="64.0" layoutY="40.0" prefWidth="300.0" promptText="Choisissez une catégorie..." AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="40.0" />
+      <TextField fx:id="sProduitsTextFieldQte" layoutX="737.0" layoutY="469.0" prefHeight="25.0" prefWidth="58.0" />
+      <Label layoutX="676.0" layoutY="473.0" text="Quantité" />
+      <Button layoutX="877.0" layoutY="525.0" mnemonicParsing="false" onAction="#retour" prefWidth="100.0" text="Retour" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="20.0" />
+      <Button layoutX="398.0" layoutY="40.0" mnemonicParsing="false" prefWidth="100.0" text="Nouveau" />
+      <Button layoutX="813.0" layoutY="469.0" mnemonicParsing="false" prefWidth="100.0" text="Ajouter" />
+      <ListView fx:id="sProduitsListViewProduits" layoutX="40.0" layoutY="92.0" onMouseClicked="#sProduitsListViewMouseClicked" prefHeight="470.0" prefWidth="300.0" />
+      <Label fx:id="sProduitsLabelInfos" alignment="TOP_LEFT" layoutX="370.0" layoutY="120.0" prefHeight="409.0" prefWidth="205.0" wrapText="true" />
+   </children>
+</AnchorPane>
